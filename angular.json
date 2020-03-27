@@ -34,21 +34,7 @@
               "src/assets/css/style.css"
             ],
             "scripts": [
-              "bootstrap.js",
-              "coreSlider.js",
-              "imagezoom.js",
-              "jquery-ui.js",
-              "jquery-ui.min.js",
-              "jquery.flexslider.js",
-              "jquery.jscrollpane.min.js",
-              "jquery.min.js",
-              "jquery.mousewheel.js",
-              "jquery.mycart.js",
-              "jstarbox.js",
-              "main.js",
-              "owl.carousel.js",
-              "responsiveslides.min.js",
-              "simpleCart.min.js"
+              
             ]
           },
           "configurations": {
