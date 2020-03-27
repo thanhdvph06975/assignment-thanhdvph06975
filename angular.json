@@ -23,31 +23,32 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
-              ,"src/css/coreSlider.css"
-              ,"src/css/flexslider.css"
-              ,"src/css/font-awesome.css"
-              ,"src/css/jquery-ui.css"
-              ,"src/css/jstarbox.css"
-              ,"src/css/owl.carousel.css"
-              ,"src/css/style.css"
+              "src/styles.css",
+              "src/assets/css/bootstrap.css",
+              "src/assets/css/coreSlider.css",
+              "src/assets/css/flexslider.css",
+              "src/assets/css/font-awesome.css",
+              "src/assets/css/jquery-ui.css",
+              "src/assets/css/jstarbox.css",
+              "src/assets/css/owl.carousel.css",
+              "src/assets/css/style.css"
             ],
             "scripts": [
-              "bootstrap.js"
-              ,"coreSlider.js"
-              ,"imagezoom.js"
-              ,"jquery-ui.js"
-              ,"jquery-ui.min.js"
-              ,"jquery.flexslider.js"
-              ,"jquery.jscrollpane.min.js"
-              ,"jquery.min.js"
-              ,"jquery.mousewheel.js"
-              ,"jquery.mycart.js"
-              ,"jstarbox.js"
-              ,"main.js"
-              ,"owl.carousel.js"
-              ,"responsiveslides.min.js"
-              ,"simpleCart.min.js"
+              "bootstrap.js",
+              "coreSlider.js",
+              "imagezoom.js",
+              "jquery-ui.js",
+              "jquery-ui.min.js",
+              "jquery.flexslider.js",
+              "jquery.jscrollpane.min.js",
+              "jquery.min.js",
+              "jquery.mousewheel.js",
+              "jquery.mycart.js",
+              "jstarbox.js",
+              "main.js",
+              "owl.carousel.js",
+              "responsiveslides.min.js",
+              "simpleCart.min.js"
             ]
           },
           "configurations": {
