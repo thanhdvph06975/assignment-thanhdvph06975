@@ -24,6 +24,13 @@
             ],
             "styles": [
               "src/styles.css"
+              ,"src/css/coreSlider.css"
+              ,"src/css/flexslider.css"
+              ,"src/css/font-awesome.css"
+              ,"src/css/jquery-ui.css"
+              ,"src/css/jstarbox.css"
+              ,"src/css/owl.carousel.css"
+              ,"src/css/style.css"
             ],
             "scripts": []
           },
