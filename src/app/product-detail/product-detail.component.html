@@ -1,0 +1,14 @@
+<div class="detail" *ngIf="product">
+	<div id="img">
+		<img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-xr-white-select-201809?wid=940&hei=1112&fmt=png-alpha&qlt=80&.v=1551226036668">
+    </div>
+		<div id="desc">
+			<h1>{{product.name}}</h1>
+			<h2>$ {{product.price}}</h2>
+			<h3>Product Description:</h3>
+      <p>{{product.desc}}</p>
+      <h4>Quality:</h4>
+      <input><br>
+      <a class="my-cart-b item_add">Add to cart</a>
+		</div>
+	</div>
