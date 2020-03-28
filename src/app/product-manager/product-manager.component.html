@@ -1,0 +1,25 @@
+<h1>Manager Product</h1>
+<button id="add">Add product</button>
+<table class="paleBlueRows">
+	<thead>
+		<tr>
+			<th>#</th>
+			<th>Name</th>
+			<th>Price</th>
+      <th>Image</th>
+			<th>Action</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr *ngFor="let product of products;index as i">
+			<td>{{i+1}}</td>
+			<td><a routerLink="/product/:{{product.id}}">{{product.name}}</a></td>
+			<td>{{product.price}}</td>
+      <td>{{product.img}}</td>
+			<td>
+				<button id="edit">Edit</button>
+				<button id="remove">Remove</button>
+			</td>
+		</tr>
+	</tbody>
+</table>
