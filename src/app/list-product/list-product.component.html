@@ -6,18 +6,17 @@
 				<ul class="rslides" id="slider">
 					<li>
 						<div class="caption">
-							<div class="col-md-3 cap-left simpleCart_shelfItem" *ngFor="let product of products" id="pro">
+							<div class="col-md-3 cap-left simpleCart_shelfItem" *ngFor="let product of products"
+								id="pro">
 								<div class="grid-arr">
 									<div class="grid-arrival">
 										<figure>
-											<a href="single.html">
+											<div class="grid-img">
+												<img  src="{{product.img}}" class="img-responsive" alt="">
+																</div>
 												<div class="grid-img">
-													<img  src="https://cdn.tgdd.vn/Products/Images/42/194955/realme-3-pro-blue-400x460.png" class="img-responsive" alt="">
+													<img  src="images/p13.jpg" class="img-responsive"  alt="">
 																</div>
-													<div class="grid-img">
-														<img  src="images/p13.jpg" class="img-responsive"  alt="">
-																</div>
-											</a>
 										</figure>
 									</div>
 									<div class="block">
@@ -27,7 +26,8 @@
 										<h6><a routerLink="/product/{{product.id}}">{{product.name}}</a></h6>
 										<span class="size">16GB / 32GB / 64GB </span>
 										<p>Price: <em class="item_price">${{product.price}}</em></p>
-										<a routerLink="/product/{{product.id}}" class="my-cart-b item_add">Show Detail</a>
+										<a routerLink="/product/{{product.id}}" class="my-cart-b item_add">Show
+											Detail</a>
 									</div>
 								</div>
 							</div>
