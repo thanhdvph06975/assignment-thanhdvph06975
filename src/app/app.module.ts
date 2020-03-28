@@ -14,6 +14,7 @@ import { ProductService } from "./product.service";
 import { HomeComponent } from './home/home.component';
 import { ProductManagerComponent } from './product-manager/product-manager.component';
 import { ProductDetailComponent } from './product-detail/product-detail.component';
+import { ErrorComponent } from './error/error.component';
 
 @NgModule({
   imports: [BrowserModule, FormsModule, HttpClientModule, AppRoutingModule],
@@ -25,7 +26,8 @@ import { ProductDetailComponent } from './product-detail/product-detail.componen
     ListProductComponent,
     HomeComponent,
     ProductManagerComponent,
-    ProductDetailComponent
+    ProductDetailComponent,
+    ErrorComponent
   ],
   bootstrap: [AppComponent],
   providers: [ProductService]
