@@ -5,12 +5,14 @@ import { ProductManagerComponent } from './product-manager/product-manager.compo
 import { ProductDetailComponent } from './product-detail/product-detail.component';
 import { ErrorComponent } from './error/error.component';
 import { AdminComponent } from './backend/admin/admin.component';
+import { IndexComponent } from './frontend/index/index.component';
 
 
 const routes: Routes = [
   { path: '', redirectTo:'home',pathMatch:"full" },
   { path: 'home', component: HomeComponent },
   { path: 'admin', component: AdminComponent },
+   { path: 'index', component: IndexComponent },
   // { path: 'add', component: ProductAddComponent },
   { path: 'manager', component: ProductManagerComponent },
   { path: 'product/:id', component: ProductDetailComponent },
