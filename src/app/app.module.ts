@@ -15,6 +15,7 @@ import { HomeComponent } from './home/home.component';
 import { ProductManagerComponent } from './product-manager/product-manager.component';
 import { ProductDetailComponent } from './product-detail/product-detail.component';
 import { ErrorComponent } from './error/error.component';
+import { AdminComponent } from './backend/admin/admin.component';
 
 @NgModule({
   imports: [BrowserModule, FormsModule, HttpClientModule, AppRoutingModule],
@@ -27,7 +28,8 @@ import { ErrorComponent } from './error/error.component';
     HomeComponent,
     ProductManagerComponent,
     ProductDetailComponent,
-    ErrorComponent
+    ErrorComponent,
+    AdminComponent
   ],
   bootstrap: [AppComponent],
   providers: [ProductService]
