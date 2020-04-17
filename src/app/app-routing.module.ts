@@ -11,9 +11,12 @@ import { IndexComponent } from './frontend/index/index.component';
 const routes: Routes = [
   { path: '', redirectTo:'home',pathMatch:"full" },
   { path: 'home', component: HomeComponent },
-  { path: 'admin', component: AdminComponent },
+  { path: 'admin', component: AdminComponent,
+  children:[
+    { path: 'manager', component: ProductManagerComponent }
+  ]
+   },
    { path: 'index', component: IndexComponent },
-  // { path: 'add', component: ProductAddComponent },
   { path: 'manager', component: ProductManagerComponent },
   { path: 'product/:id', component: ProductDetailComponent },
   { path: 'error', component: ErrorComponent },
