@@ -1,0 +1,8 @@
+.menuHeader{
+  list-style-type: none;
+}
+
+.menuHeader li{
+  float: left;
+  margin-right: 50px;
+}
