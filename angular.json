@@ -31,7 +31,8 @@
               "src/assets/css/jquery-ui.css",
               "src/assets/css/jstarbox.css",
               "src/assets/css/owl.carousel.css",
-              "src/assets/css/style.css"
+              "src/assets/css/style.css",
+              "src/assets/css/adminlte.css"
             ],
             "scripts": [
               

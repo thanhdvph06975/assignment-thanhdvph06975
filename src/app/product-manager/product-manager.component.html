@@ -1,4 +1,4 @@
-<h1>Manager Product</h1>
+<h1>Product Manager</h1>
 <button id="add">Add product</button>
 <table class="paleBlueRows">
 	<thead>
@@ -15,7 +15,7 @@
 			<td>{{i+1}}</td>
 			<td><a routerLink="/admin/product/{{product.id}}">{{product.name}}</a></td>
 			<td>{{product.price}}</td>
-      <td>{{product.img}}</td>
+      <img  src="{{product.img}}" class="img-responsive" alt="">
 			<td>
 				<button id="edit">Edit</button>
 				<button id="remove">Remove</button>

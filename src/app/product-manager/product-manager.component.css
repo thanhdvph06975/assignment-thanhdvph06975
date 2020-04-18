@@ -65,3 +65,8 @@ h1{
 td:hover{
   background: rgb(186, 245, 172);
 }
+
+img{
+  width: 100px;
+  height: 100px;
+}
