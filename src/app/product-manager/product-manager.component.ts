@@ -7,6 +7,8 @@ import { ProductService } from "../product.service";
   styleUrls: ["./product-manager.component.css"]
 })
 export class ProductManagerComponent implements OnInit {
+  page=1;
+  pageSize=5;
   constructor(private productService: ProductService) {}
 
   ngOnInit() {

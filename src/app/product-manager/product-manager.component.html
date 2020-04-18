@@ -6,16 +6,17 @@
 			<th>#</th>
 			<th>Name</th>
 			<th>Price</th>
-      <th>Image</th>
+			<th>Image</th>
 			<th>Action</th>
 		</tr>
 	</thead>
 	<tbody>
-		<tr *ngFor="let product of products;index as i">
-			<td>{{i+1}}</td>
+		<!-- <tr *ngFor="let product of products;index as i"> -->
+		<tr *ngFor="let product of products | slice: (page-1) * pageSize : (page-1) * pageSize + pageSize">
+			<td>{{product.id}}</td>
 			<td><a routerLink="/admin/product/{{product.id}}">{{product.name}}</a></td>
 			<td>{{product.price}}</td>
-      <img  src="{{product.img}}" class="img-responsive" alt="">
+			<img  src="{{product.img}}" class="img-responsive" alt="">
 			<td>
 				<button id="edit">Edit</button>
 				<button id="remove">Remove</button>
@@ -23,3 +24,7 @@
 		</tr>
 	</tbody>
 </table>
+<ngb-pagination
+  [(page)]="page"
+  [pageSize]="pageSize"
+  [collectionSize]="products.length"></ngb-pagination>
